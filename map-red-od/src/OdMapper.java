@@ -8,8 +8,8 @@ import java.io.IOException;
 /**
  * Created by od on 2/26/2016.
  */
-public class OdMapRed extends Mapper <LongWritable, Text, LongWritable, Text> {
-    public OdMapRed() {
+public class OdMapper extends Mapper <LongWritable, Text, LongWritable, Text> {
+    public OdMapper() {
         super();
     }
 
